@@ -1,40 +1,30 @@
-# Compiled class file
-*.class
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# Eclipse
-.project
+### Eclipse ###
+.apt_generated
 .classpath
-.settings/
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Intellij
-*.ipr
-*.iml
-*.iws
-.idea/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# Maven
-target/
+### VS Code ###
+.vscode/
 
-# Gradle
-build
-.gradle
-
-# Log file
-*.log
-log/
-
-# out
-**/out/
-
-# Mac
+### Mac OS ###
 .DS_Store
-
-# others
-*.jar
-*.war
-*.zip
-*.tar
-*.tar.gz
-*.pid
-*.orig
-temp/
