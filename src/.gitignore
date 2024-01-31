@@ -11,8 +11,8 @@ out/
 .settings
 .springBeans
 .sts4-cache
-*.idea
-*.iml
+.idea/
+.iml
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
@@ -28,4 +28,4 @@ bin/
 .vscode/
 
 ### Mac OS ###
-*.DS_Store
+.DS_Store
