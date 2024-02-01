@@ -1,4 +1,4 @@
-package com.tianyuhang.create.CompletableFuture;
+package com.tianyuhang.create.completableFuture;
 
 /**
  * @Author:田宇航
@@ -17,7 +17,7 @@ public class CompletableFutureExample {
         CompletableFuture.runAsync(() -> {
             try {
                 // 模拟耗时操作
-                Thread.sleep(2000);
+                Thread.sleep(1000);
                 // 完成异步任务并设置结果
                 future.complete("Task completed successfully!");
             } catch (InterruptedException e) {
@@ -27,8 +27,8 @@ public class CompletableFutureExample {
         });
 
         // 主线程可以执行其他操作
-        System.out.println("Main thread is doing some other work...");
-        for (int i = 1; i <= 500 ; i++) {
+        System.out.println("MainThread thread is doing some other work...");
+        for (int i = 1; i <= 1000 ; i++) {
             if(i % 2 == 0){
                 System.out.println(Thread.currentThread().getName() + "->" + i);
             }
@@ -36,11 +36,11 @@ public class CompletableFutureExample {
 
         try {
             // 阻塞等待异步任务的完成，并获取结果
-            String result = future.get();
-            System.out.println("Async task result: " + result);
+            System.out.println("Async task result: " + future.get());
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
+
     }
 }
 
