@@ -11,16 +11,14 @@ public class ProducerConsumerTest {
         Producer pro1 = new Producer(clerk,"生产者1");
         Consumer con1 = new Consumer(clerk,"消费者1");
         Consumer con2 = new Consumer(clerk,"消费者2");
-        Consumer con3 = new Consumer(clerk,"消费者3");
+
 
         pro1.start();
         con1.start();
         con2.start();
-        con3.start();
+
     }
-
 }
-
 class Clerk{
     private int productNum = 0;
 
@@ -70,8 +68,6 @@ class Producer extends Thread{
                 e.printStackTrace();
             }
             clerk.Add();
-
-
         }
     }
 }
@@ -93,8 +89,6 @@ class Consumer extends Thread{
                 e.printStackTrace();
             }
             clerk.Minus();
-
-
         }
     }
 }

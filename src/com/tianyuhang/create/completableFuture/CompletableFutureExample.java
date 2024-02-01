@@ -11,7 +11,7 @@ public class CompletableFutureExample {
 
     public static void main(String[] args) {
         // 创建一个CompletableFuture对象
-        CompletableFuture<String> future = new CompletableFuture<>();
+        CompletableFuture future = new CompletableFuture();
 
         // 异步任务
         CompletableFuture.runAsync(() -> {
@@ -40,7 +40,6 @@ public class CompletableFutureExample {
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
-
     }
 }
 
