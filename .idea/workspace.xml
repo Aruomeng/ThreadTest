@@ -5,17 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09115b0f-d59c-44ac-85eb-9db9f11a696a" name="更改" comment="Thread">
-      <change afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/runnable/WindowTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/thread/WindowTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/CompletableFuture/CompletableFutureExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/CompletableFuture/CompletableFutureExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/SaleTickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/SaleTickets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/TicketsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/TicketsTest_Thread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/TicketsTest_Thread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tianyuhang/create/CompletableFuture/CompletableFutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/completableFuture/CompletableFutureExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tianyuhang/create/runnable/TicketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/runnable/TicketsTest_Runnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tianyuhang/create/thread/TicketsTest_Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/thread/TicketsTest_Thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/CompletableFuture/CompletableFutureExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/EvenNumberTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/EvenNumberTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/EvenNumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/PrintNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/SaleTickets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/SaleTickets1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/TicketsTest_Runnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/WindowTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/EvenNumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/PrintNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/PrinterEven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/PrinterOdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/ThreadPrinterTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/ThreadPrinterTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/ThreadPrinterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/TicketsTest_Thread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/Window1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/WindowTest1.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +65,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/tianyuhang/IdeaProjects/Thread",
     "node.js.detected.package.eslint": "true",
@@ -169,7 +180,7 @@
       <workItem from="1706691238632" duration="464000" />
       <workItem from="1706691730451" duration="35000" />
       <workItem from="1706691853666" duration="848000" />
-      <workItem from="1706692739655" duration="11925000" />
+      <workItem from="1706692739655" duration="12228000" />
     </task>
     <task id="LOCAL-00001" summary="Thread">
       <option name="closed" value="true" />
@@ -235,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706757239655</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Thread">
+      <option name="closed" value="true" />
+      <created>1706761555858</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706761555858</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
