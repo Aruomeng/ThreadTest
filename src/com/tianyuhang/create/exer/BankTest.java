@@ -60,16 +60,20 @@ class Bank{
 //        return instance;
 //    }
     //方法2
+    /*相当于厕所就一个隔间坑位，前两个线程想在隔间里小便，都在隔间前抢位置锁门，
+    而第三个线程直接去小便池解决下就走了，并且小便池还可以同时让多个线程一起来小便，
+    不用去抢坑位浪费时间*/
     public static Bank getInstance(){
-        synchronized (Bank.class) {
-            if (instance == null){
-                try {
-                    Thread.sleep(2000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+        if (instance ==null) {
+            synchronized (Bank.class) {
+                if (instance == null) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    instance = new Bank();
                 }
-
-                instance = new Bank();
             }
         }
         return instance;
