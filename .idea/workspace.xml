@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09115b0f-d59c-44ac-85eb-9db9f11a696a" name="更改" comment="Thread">
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/CompletableFuture/CompletableFutureExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/EvenNumberTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/EvenNumberTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/EvenNumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/PrintNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/SaleTickets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/SaleTickets1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/TicketsTest_Runnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/runnable/WindowTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/EvenNumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/PrintNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/PrinterEven.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/PrinterOdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/ThreadPrinterTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/ThreadPrinterTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/ThreadPrinterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/TicketsTest_Thread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/Window1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/tianyuhang/create/thread/WindowTest1.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/exer/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +21,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -78,6 +53,7 @@
     "project.structure.side.proportion": "0.24827586",
     "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true",
+    "应用程序.AccountTest.executor": "Run",
     "应用程序.CompletableFutureExample.executor": "Run",
     "应用程序.TicketsTest.executor": "Run",
     "应用程序.TicketsTest_Runnable.executor": "Run",
@@ -86,13 +62,13 @@
     "应用程序.com.tianyuhang.create.thread.WindowTest1.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.com.tianyuhang.create.thread.WindowTest1">
-    <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.completableFuture.CompletableFutureExample" />
+  <component name="RunManager" selected="应用程序.AccountTest">
+    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.exer.AccountTest" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tianyuhang.create.completableFuture.*" />
+          <option name="PATTERN" value="com.tianyuhang.create.exer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketsTest_Runnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.runnable.TicketsTest_Runnable" />
+    <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.completableFuture.CompletableFutureExample" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tianyuhang.create.runnable.*" />
+          <option name="PATTERN" value="com.tianyuhang.create.completableFuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.AccountTest" />
         <item itemvalue="应用程序.com.tianyuhang.create.thread.WindowTest1" />
         <item itemvalue="应用程序.WindowTest1" />
         <item itemvalue="应用程序.TicketsTest_Thread" />
         <item itemvalue="应用程序.CompletableFutureExample" />
-        <item itemvalue="应用程序.TicketsTest_Runnable" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +156,7 @@
       <workItem from="1706691238632" duration="464000" />
       <workItem from="1706691730451" duration="35000" />
       <workItem from="1706691853666" duration="848000" />
-      <workItem from="1706692739655" duration="12228000" />
+      <workItem from="1706692739655" duration="13784000" />
     </task>
     <task id="LOCAL-00001" summary="Thread">
       <option name="closed" value="true" />
@@ -254,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706761555858</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Thread">
+      <option name="closed" value="true" />
+      <created>1706761725586</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706761725586</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
