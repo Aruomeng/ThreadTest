@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09115b0f-d59c-44ac-85eb-9db9f11a696a" name="更改" comment="Thread">
+      <change afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/pool/ThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tianyuhang/create/completableFuture/CompletableFutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/completableFuture/CompletableFutureExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tianyuhang/create/exer/ProducerConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/exer/ProducerConsumerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,7 @@
     "应用程序.LockTest.executor": "Debug",
     "应用程序.PrintNumberTest.executor": "Run",
     "应用程序.ProducerConsumerTest.executor": "Run",
+    "应用程序.ThreadPool.executor": "Run",
     "应用程序.TicketsTest.executor": "Run",
     "应用程序.TicketsTest_Runnable.executor": "Run",
     "应用程序.TicketsTest_Thread.executor": "Run",
@@ -76,27 +76,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/tianyuhang/create/lock" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tianyuhang.create.pool" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.CompletableFutureExample">
+  <component name="RunManager" selected="应用程序.ThreadPool">
     <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.completableFuture.CompletableFutureExample" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tianyuhang.create.completableFuture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeadLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.deadlock.DeadLockTest" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tianyuhang.create.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.pool.ThreadPool" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tianyuhang.create.pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ThreadPool" />
         <item itemvalue="应用程序.CompletableFutureExample" />
         <item itemvalue="应用程序.ProducerConsumerTest" />
         <item itemvalue="应用程序.PrintNumberTest" />
         <item itemvalue="应用程序.LockTest" />
-        <item itemvalue="应用程序.DeadLockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +174,7 @@
       <workItem from="1706691238632" duration="464000" />
       <workItem from="1706691730451" duration="35000" />
       <workItem from="1706691853666" duration="848000" />
-      <workItem from="1706692739655" duration="23591000" />
+      <workItem from="1706692739655" duration="25067000" />
     </task>
     <task id="LOCAL-00001" summary="Thread">
       <option name="closed" value="true" />
@@ -317,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706785584140</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Thread">
+      <option name="closed" value="true" />
+      <created>1706786599268</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706786599268</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
