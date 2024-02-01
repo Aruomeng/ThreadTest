@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09115b0f-d59c-44ac-85eb-9db9f11a696a" name="更改" comment="Thread">
-      <change afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/exer/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/exer/BankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/tianyuhang/create/exer/AccountTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -54,6 +57,7 @@
     "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true",
     "应用程序.AccountTest.executor": "Run",
+    "应用程序.BankTest.executor": "Run",
     "应用程序.CompletableFutureExample.executor": "Run",
     "应用程序.TicketsTest.executor": "Run",
     "应用程序.TicketsTest_Runnable.executor": "Run",
@@ -62,7 +66,7 @@
     "应用程序.com.tianyuhang.create.thread.WindowTest1.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.AccountTest">
+  <component name="RunManager" selected="应用程序.BankTest">
     <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.exer.AccountTest" />
       <module name="Thread" />
@@ -76,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.completableFuture.CompletableFutureExample" />
+    <configuration name="BankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.exer.BankTest" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tianyuhang.create.completableFuture.*" />
+          <option name="PATTERN" value="com.tianyuhang.create.exer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.BankTest" />
         <item itemvalue="应用程序.AccountTest" />
         <item itemvalue="应用程序.com.tianyuhang.create.thread.WindowTest1" />
         <item itemvalue="应用程序.WindowTest1" />
         <item itemvalue="应用程序.TicketsTest_Thread" />
-        <item itemvalue="应用程序.CompletableFutureExample" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +160,7 @@
       <workItem from="1706691238632" duration="464000" />
       <workItem from="1706691730451" duration="35000" />
       <workItem from="1706691853666" duration="848000" />
-      <workItem from="1706692739655" duration="13784000" />
+      <workItem from="1706692739655" duration="15183000" />
     </task>
     <task id="LOCAL-00001" summary="Thread">
       <option name="closed" value="true" />
@@ -238,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706761725586</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Thread">
+      <option name="closed" value="true" />
+      <created>1706765261272</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706765261272</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
