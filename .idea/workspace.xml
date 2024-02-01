@@ -5,17 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09115b0f-d59c-44ac-85eb-9db9f11a696a" name="更改" comment="Thread">
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/CompletableFuture/CompletableFutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/runnable/TicketsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tianyuhang/create/thread/TicketsTest_Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tianyuhang/create/thread/TicketsTest_Thread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -54,9 +60,60 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.24827586",
     "settings.editor.selected.configurable": "preferences.fileTypes",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.CompletableFutureExample.executor": "Run",
+    "应用程序.TicketsTest.executor": "Run",
+    "应用程序.TicketsTest_Thread.executor": "Run"
   }
 }]]></component>
+  <component name="RunManager" selected="应用程序.TicketsTest_Thread">
+    <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.CompletableFuture.CompletableFutureExample" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tianyuhang.create.CompletableFuture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.runnable.TicketsTest" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tianyuhang.create.runnable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketsTest_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tianyuhang.create.thread.TicketsTest_Thread" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tianyuhang.create.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.TicketsTest_Thread" />
+        <item itemvalue="应用程序.TicketsTest" />
+        <item itemvalue="应用程序.CompletableFutureExample" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,7 +132,7 @@
       <workItem from="1706691238632" duration="464000" />
       <workItem from="1706691730451" duration="35000" />
       <workItem from="1706691853666" duration="848000" />
-      <workItem from="1706692739655" duration="2833000" />
+      <workItem from="1706692739655" duration="7720000" />
     </task>
     <task id="LOCAL-00001" summary="Thread">
       <option name="closed" value="true" />
@@ -125,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706694415661</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Thread">
+      <option name="closed" value="true" />
+      <created>1706695584792</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706695584792</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
